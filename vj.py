@@ -346,9 +346,9 @@ class bill_app:
 
             port = 587  # For starttls
             smtp_server = "smtp.gmail.com"
-            sender_email = "help.ebllling@gmail.com" # GMail
+            sender_email = "harsh8750994013@gmail.com" # GMail
             receiver_email = self.c_phone.get()
-            password = "veerubhai"                    #password
+            password = "shubh@123#"                    #password
             message = str(self.bill_data)
             context = ssl.create_default_context()
             with smtplib.SMTP(smtp_server, port) as server:
@@ -374,11 +374,7 @@ class bill_app:
         if present=="No":
                 messagebox.showerror("Error","Invalid Bill Number")
     def clear_s(self):
-        # op = messagebox.askyesno("Clear", "Do You Really Want to Clear ")
-        #
-        # # if op > 0:
-        # #     self.()
-        # cosmetic
+        #cosmetic
         self.shop.set(0)
         self.face.set(0)
         self.face_wash.set(0)
