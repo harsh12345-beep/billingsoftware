@@ -423,3 +423,5 @@ class bill_app:
 root=Tk()
 b=bill_app(root)
 root.mainloop()
+
+#completed the code
